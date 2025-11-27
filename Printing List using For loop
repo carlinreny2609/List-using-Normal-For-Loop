@@ -1,0 +1,22 @@
+package selenium;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Listpractise {
+
+	public static void main(String[] Args) {
+
+		List<String> List = new ArrayList<>();
+
+		List.add("Carlin");
+		List.add("Bhargavi");
+		List.add("Lavanya");
+
+		System.out.println(List.size());
+		for (int i = 0; i < List.size(); i++) {
+			System.out.println(List.get(i));
+		}
+
+	}
+}
